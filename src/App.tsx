@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
@@ -9,11 +8,11 @@ import Toolbar from '@material-ui/core/Toolbar';
 
 import Questions from "./Questions";
 import Diagnostic from "./Diagnostic";
-import DiagnosticProps from "./Diagnostic";
+import Summary from "./Summary";
 
 const App: React.FC = () => {
 
-  const [lazy, setLazy] = useState(false);
+  const [bobo, setBobo] = useState(false);
 
   return (
     <div className="App">
@@ -23,12 +22,13 @@ const App: React.FC = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">
-            Flemme Doc {lazy ? "paresse" : "pas paresse"}
+            Bobo?
           </Typography>
         </Toolbar>
       </AppBar>
-      <Questions setLazy={setLazy}/>
-      <Diagnostic lazy={lazy}/>
+      <Questions setBobo={setBobo}/>
+      <Summary bobo={bobo}/>
+      <Diagnostic bobo={bobo}/>
     </div>
   );
 }

@@ -7,11 +7,11 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Typography from '@material-ui/core/Typography';
 
-interface DiagnosticProps {
+interface SummaryProps {
     bobo: boolean,
 }
 
-const Diagnostic: React.FC<DiagnosticProps> = (props) => {
+const Summary: React.FC<SummaryProps> = (props) => {
 
     return (
         <div>
@@ -21,14 +21,14 @@ const Diagnostic: React.FC<DiagnosticProps> = (props) => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography>Diagnostique</Typography>
+                    <Typography>Résumé</Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
-                    <Typography>{props.bobo ? "Le patient a un bobo" : "Le patient va bien"}</Typography>
+                    {props.bobo && <Chip label="bobo" />}
                 </ExpansionPanelDetails>
             </ExpansionPanel>
         </div>
     );
 }
 
-export default Diagnostic;
+export default Summary;

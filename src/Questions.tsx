@@ -1,17 +1,15 @@
 
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 interface DiagnosticProps {
-    setLazy: React.Dispatch<React.SetStateAction<boolean>>,
+    setBobo: React.Dispatch<React.SetStateAction<boolean>>,
 }
 
 const Questions: React.FC<DiagnosticProps> = (props) => {
@@ -19,7 +17,7 @@ const Questions: React.FC<DiagnosticProps> = (props) => {
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setChecked(event.target.checked);
-        props.setLazy(event.target.checked);
+        props.setBobo(event.target.checked);
     };
 
     return (
@@ -42,7 +40,7 @@ const Questions: React.FC<DiagnosticProps> = (props) => {
                                 color="primary"
                             />
                         }
-                        label="Vous êtes fatigué"
+                    label="Bobo?"
                     />
                 </ExpansionPanelDetails>
             </ExpansionPanel>

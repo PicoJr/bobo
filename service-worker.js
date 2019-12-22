@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//picojr.github.io/bobo/precache-manifest.624ac3fb4d3f2d8492addc0f6c1d83bd.js"
+  "//picojr.github.io/bobo/precache-manifest.576615fb7ca108538690e0fccb5a9b15.js"
 );
 
 self.addEventListener('message', (event) => {

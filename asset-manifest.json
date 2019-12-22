@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "//picojr.github.io/bobo/static/css/main.d1b05096.chunk.css",
-    "main.js": "//picojr.github.io/bobo/static/js/main.c994cdd6.chunk.js",
-    "main.js.map": "//picojr.github.io/bobo/static/js/main.c994cdd6.chunk.js.map",
+    "main.js": "//picojr.github.io/bobo/static/js/main.f82aa90e.chunk.js",
+    "main.js.map": "//picojr.github.io/bobo/static/js/main.f82aa90e.chunk.js.map",
     "runtime-main.js": "//picojr.github.io/bobo/static/js/runtime-main.571c2ee0.js",
     "runtime-main.js.map": "//picojr.github.io/bobo/static/js/runtime-main.571c2ee0.js.map",
-    "static/js/2.8bc22755.chunk.js": "//picojr.github.io/bobo/static/js/2.8bc22755.chunk.js",
-    "static/js/2.8bc22755.chunk.js.map": "//picojr.github.io/bobo/static/js/2.8bc22755.chunk.js.map",
+    "static/js/2.0920dc0f.chunk.js": "//picojr.github.io/bobo/static/js/2.0920dc0f.chunk.js",
+    "static/js/2.0920dc0f.chunk.js.map": "//picojr.github.io/bobo/static/js/2.0920dc0f.chunk.js.map",
     "index.html": "//picojr.github.io/bobo/index.html",
-    "precache-manifest.624ac3fb4d3f2d8492addc0f6c1d83bd.js": "//picojr.github.io/bobo/precache-manifest.624ac3fb4d3f2d8492addc0f6c1d83bd.js",
+    "precache-manifest.576615fb7ca108538690e0fccb5a9b15.js": "//picojr.github.io/bobo/precache-manifest.576615fb7ca108538690e0fccb5a9b15.js",
     "service-worker.js": "//picojr.github.io/bobo/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "//picojr.github.io/bobo/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.8bc22755.chunk.js.LICENSE": "//picojr.github.io/bobo/static/js/2.8bc22755.chunk.js.LICENSE"
+    "static/js/2.0920dc0f.chunk.js.LICENSE": "//picojr.github.io/bobo/static/js/2.0920dc0f.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.571c2ee0.js",
-    "static/js/2.8bc22755.chunk.js",
+    "static/js/2.0920dc0f.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.c994cdd6.chunk.js"
+    "static/js/main.f82aa90e.chunk.js"
   ]
 }
